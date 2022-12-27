@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Cambria;
+  color: #1b2522;
+}
+
+.full-screen-header {
+  background-image: url("img/1.png");
+  height: 100vh;
+  background-size: cover;
+  background-position-x: 40%;
+  background-position-y: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b2522;
+}
+
+.nav-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.logo {
+  width: 50px;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.nav-list a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: white;
+}
