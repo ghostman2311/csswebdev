@@ -14,6 +14,11 @@ body {
   background-size: cover;
   background-position-x: 40%;
   background-position-y: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
 }
 
 .nav {
@@ -21,6 +26,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #1b2522;
+  padding: 0.5rem 1rem;
 }
 
 .nav-top {
@@ -46,4 +52,15 @@ body {
   margin-left: 1rem;
   text-decoration: none;
   color: white;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.sub-title {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
